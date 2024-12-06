@@ -26,4 +26,21 @@
     color: white;
     text-decoration: none;
     margin: 0 1rem;
+    
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #e5ffe5;
+}
+.btn {
+
+    background-color: #004d00;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+
 }
