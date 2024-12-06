@@ -28,13 +28,54 @@
     margin: 0 1rem;
     
 }
+.white-section {
+
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #fff;
+  color: #004d00;
+}
+
+.white-section h1 {
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.section img {
+  max-width: 40%;
+  border-radius: 10px;
+}
 .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    background-color: #e5ffe5;
+        background-color: #004d00;
 }
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content p {
+    margin-bottom: 1.5rem;
+    color:white;
+}
+
+.btn {
+    background-color: #004d00;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.hero-images img {
+    width: 150px;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+
 .btn {
 
     background-color: #004d00;
