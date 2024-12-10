@@ -43,7 +43,7 @@
 }
 
 .white-img img {
-  width:50% ;
+  width:100% ;
   height: auto;
 }
 
@@ -62,12 +62,24 @@
     background-color: #004d00;
     color: white;
 }
-green-img img {
-  max-width: 100%;
-  height: 535px;
-  width:657px;
-  
+.green-img img {
+  max-width: 200%;
+  height: auto;
 }
+.hero{
+     display: flex;
+  padding: 2rem;
+  background-color: #fff;
+  align-items: center; 
+      justify-content: space-between;
+
+}
+
+.hero-images img {
+     max-width: 200%;
+    border-radius: 10px;
+}
+
 .footer {
     text-align: center;
     background-color: #004d00;
